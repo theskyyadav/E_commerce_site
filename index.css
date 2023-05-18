@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    
+}
+nav ul li{
+    padding: 0px 30px;
+    list-style: none;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(27, 8, 202);
+    font-weight: bolder;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center; 
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+.slider{ 
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.searchbar input{
+    width: 30vw;
+    height: 35px;
+    margin: 0 16px 0 56px;
+    padding:0 12px;
+    border-radius: 10px;
+}
+.searchbar button{
+    width: 70px;
+    height: 25px;
+    background-color: #2874f0;
+    color: white;
+    margin: 0px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.searchbar button:hover{
+    font-weight: bolder;
+}
+.logo img{
+    width: 170px;
+    padding: 0px 30px;
+}
+.card{
+    width: 91vw;
+    margin: 37px auto;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+.my-1{
+    margin: 5px 0px;
+}
+.my-2{
+    margin: 26px 0px;
+}
+.container{
+    min-height: calc(100vh - 60px - 14vh);
+}
+.cards{
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center; */
+}
+header{
+    background-color: #2874f0;
+    
+}
+footer{
+    background-color: #2874f0;
+    height: 14vh;
+}
